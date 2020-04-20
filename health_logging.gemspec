@@ -4,18 +4,17 @@ Gem::Specification.new do |spec|
   spec.name          = "health_logging"
   spec.version       = HealthLogging::VERSION
   spec.authors       = ["'Nathan Bolser'"]
-  spec.email         = ["'bolsern@aetna.com'"]
+  spec.email         = ["'nbolser@gmail.com'"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Logging.}
+  spec.homepage      = "https://rubygems.org/gems/health_logging"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/nbolser"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/nbolser"
+  spec.metadata["changelog_uri"] = "https://github.com/nbolser"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
